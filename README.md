@@ -55,7 +55,7 @@ Before analysis, I handled missing data and converted retention_1 and retention_
 - Comparing the total number of game rounds played between gate_30 and gate_40.
 
 
-### 📊 Results Summary
+###  Results Summary
 
 | **Metric**              | **Statistic**       | **p-value**      | **Conclusion**                             |
 |-------------------------|---------------------|------------------|--------------------------------------------|
@@ -63,21 +63,38 @@ Before analysis, I handled missing data and converted retention_1 and retention_
 | **Retention on Day 7**  | Chi-squared: 11.181 | 0.00083          | Significant difference (p < 0.05)          |
 | **Gameplay (Rounds)**   | t-statistic: 0.832  | 0.405            | No significant difference (p > 0.05)       |
 
+### **Results Explanation**
 
-Conclusion
-Based on the statistical tests:
+**1. Retention on Day 1**
+- Chi-squared statistic: 3.493
+- p-value: 0.062
+- Conclusion: No significant difference in retention between the two groups on Day 1.
+  
+**2. Retention on Day 7**
+- Chi-squared statistic: 11.181
+- p-value: 0.00083
+- Conclusion: Significant difference observed in Day 7 retention, with gate_40 showing better retention.
+  
+**3. Gameplay (Total Game Rounds Played)**
+- t-statistic: 0.832
+- p-value: 0.405
+- Conclusion: No significant difference in the total game rounds played between gate_30 and gate_40.
 
-Retention: There is no significant difference in day 1 or day 7 retention rates between gate_30 and gate_40.
-Game Rounds Played: There is no significant difference in the total game rounds played between the two game versions.
-Business Impact
-Although no statistically significant differences were found, further analysis might be needed with a larger sample size or by testing different features of the game. The results suggest that switching to gate_40 does not harm retention or gameplay, but additional features should be tested for further improvements.
+### Conclusion
 
-Next Steps
-Consider testing additional game features that could have a larger impact on retention.
-Run the experiment for a longer period to gather more data and check for long-term effects.
-Explore interaction effects between different player segments (e.g., new players vs. returning players) to uncover potential hidden insights.
-Limitations
-The dataset may not have been large enough to detect small but meaningful differences in retention or gameplay.
+- **Day 1 Retention:** No significant difference in the retention rates between gate_30 and gate_40.
+- **Day 7 Retention:** Statistically significant improvement in retention for gate_40 compared to gate_30.
+- **Gameplay:** No significant difference in the total number of game rounds played between the two versions.
+  
+**_This suggests that the new gate placement (gate_40) increases long-term retention (Day 7) without impacting gameplay volume.
+Business Impact_**
+
+
+### Next Steps and Future Improvements
+
+- **Analyze Retention Drivers:** Further analysis into what other game mechanics or features might be influencing the differences in retention.
+- **Experiment with Other Features:** Test additional game features that might affect retention, such as tutorial effectiveness or user interface changes.
+  
+### Limitations
+
 The experiment focused on a single feature (game gate version); other factors influencing player retention were not considered.
-Acknowledgements
-Thanks to the game developers and data science community for their contributions to this dataset and analysis methodology.
