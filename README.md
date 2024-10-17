@@ -80,15 +80,9 @@ Before analysis, I handled missing data and converted retention_1 and retention_
 - p-value: 0.405
 - Conclusion: No significant difference in the total game rounds played between gate_30 and gate_40.
 
-### Conclusion
+### Business Impact
 
-- **Day 1 Retention:** No significant difference in the retention rates between gate_30 and gate_40.
-- **Day 7 Retention:** Statistically significant improvement in retention for gate_40 compared to gate_30.
-- **Gameplay:** No significant difference in the total number of game rounds played between the two versions.
-  
-**_This suggests that the new gate placement (gate_40) increases long-term retention (Day 7) without impacting gameplay volume.
-Business Impact_**
-
+**_This suggests that the new gate placement (gate_40) increases long-term retention (Day 7) without impacting gameplay volume.**
 
 ### Next Steps and Future Improvements
 
