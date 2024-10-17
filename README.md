@@ -82,7 +82,7 @@ Before analysis, I handled missing data and converted retention_1 and retention_
 
 ### Business Impact
 
-**_This suggests that the new gate placement (gate_40) increases long-term retention (Day 7) without impacting gameplay volume.**
+**_This suggests that the new gate mechanism (gate_40) positively impacts player retention in the long term (day 7) but not in the short term (day 1). The new mechanism does not seem to affect the total gameplay time, as measured by the sum of game rounds._**
 
 ### Next Steps and Future Improvements
 
